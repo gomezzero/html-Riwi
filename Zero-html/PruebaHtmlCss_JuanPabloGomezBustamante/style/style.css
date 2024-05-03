@@ -1,0 +1,504 @@
+/* <!-- 
+Nombre Completo: Juan Pablo Gomez Bustamante
+Clan: Gosling
+fecha: 4/09/2024
+--> */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.hr {
+    background-color: #6b5cff;
+    width: 300px;
+    height: 5px;
+
+}
+
+
+
+input {
+    border: solid 1px #6b5cff;
+    background-color: transparent;
+    padding: 5px;
+}
+
+button {
+    background-color: #6b5cff;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* header */
+
+header {
+
+    left: 0;
+    top: 0;
+    height: 150px;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo h1{
+    font-size: 70px;
+}
+
+.letra-modificada {
+    color: #6b5cff;
+}
+
+.opciones-nav a {
+    margin-right: 30px;
+
+}
+
+.opciones-nav a img {
+    margin-right: 10px;
+
+}
+
+.opciones-nav button {
+    margin-right: 30px;
+
+}
+
+/* header fin*/
+
+.whatsapp {
+    display: flex;
+    justify-content:flex-end;
+    position: sticky;
+    top: 500px;
+
+}
+
+.whatsapp img{
+    border-radius: 50px;
+    
+}
+
+/* main */
+
+main {
+    height: 100%;
+
+}
+
+/* section class="formulario-direccion" */
+
+.formulario-direccion {
+    background-color: #6b5cff;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 770px;
+
+}
+
+/* div class="formulario-1" */
+
+.formulario-1 {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formulario-1 input {
+    background-color: aqua;
+    margin: 0px 0px 25px 0px;
+    width: 500px;
+    border-radius: 5px;
+    height: 25px;
+
+}
+
+.texto-formulario {
+    background-color: rgb(105, 141, 141);
+    text-align: center;
+    font-size: 50px;
+    width: 700px;
+
+}
+
+.formulario-1 h2 {
+    margin-bottom: 20px;
+
+}
+
+.boton-formulario-1 {
+    width: 300px;
+}
+
+.img-1 {
+    background-image: url("/recursos/images/cuatro_pasajeros.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    background-color: blue;
+    height: 750px;
+    width: 750px;
+    border-radius: 10px;
+}
+
+/* div class="img-1" */
+/*///////////////////////////7 */
+
+/* section class="contenedor-2 */
+
+.contenedor-2 {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 500px;
+
+}
+
+/* div class="formulario-1" */
+.formulario-2 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto-formulario p {
+    font-size: 15px;
+    
+}
+
+/* div class="img-1" */
+
+.img-2 {
+    background-image: url("/recursos/images/conductora.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+
+}
+
+/* /////////////////////////////////////////////////////////7 */
+
+/* section class="contenedor-3 */
+
+.contenedor-3 {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 800px;
+
+}
+
+/* div class="formulario-1" */
+.formulario-3 {
+    background-color: #6b5cff   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto-formulario-2 {
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
+    width: 900px;
+    height: 500px;
+
+}
+
+.texto-formulario-2 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 900px;
+
+}
+
+.texto-formulario p {
+    font-size: 15px;
+}
+
+/* caja */
+.caja {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* div class="img-1" */
+
+.img-3 {
+    background-image: url("/recursos/images/motociclistas.webp");
+    background-color: rgb(7, 50, 50);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    height: 800px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+/* //////////////////////////////////////////////// */
+
+/* contenedor-4 */
+
+.contenedor-4 {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+
+}
+
+.contenedor-4 h2 {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    width: 1300px;
+
+}
+
+.img-4 {
+    background-image: url("/recursos/images/conductores.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    height: 890px;
+    width: 890px;
+    border-radius: 10px;
+
+}
+
+/* contenedor-4 fin*/
+
+/* Requisitos-1 */
+.Requisitos-1 {
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Requisitos-1 div {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Requisitos-1 div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Requisitos-1 div img {
+    margin-bottom: 10px;
+
+}
+
+/* Requisitos-1 fin*/
+
+/* formulario-registro */
+
+.formulario-registro {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 700px;
+
+}
+
+.formulario-registro h3 {
+    background-color: aqua;
+    margin-bottom: 25px;
+
+}
+
+.input {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.input select {
+    background-color: salmon;
+    border-radius: 10px;
+    height: 50px;
+    width: 810px;
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px #6b5cff;
+
+}
+
+.input input {
+    border-radius: 10px;
+    height: 35px;
+    width: 800px;
+    margin-bottom: 25px;
+
+}
+
+#comentario {
+    padding-bottom: 150px;
+
+}
+
+.input button {
+    color: rgb(255, 255, 255);
+    width: 380px;
+    height: 45px;
+
+}
+
+/* formulario-registro fin */
+
+/* sobre-nosotros */
+
+.sobre-nosotros {
+    background-color: chocolate;
+    height: 750px;
+    margin-top: 30px;
+
+}
+
+.sobre-nosotros h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+
+}
+
+.contenedor-somos {
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    height: 100%;
+}
+
+.quienes-somos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 50%;
+
+}
+
+.quienes-somos h3 {
+    margin-bottom: 30px;
+
+}
+
+.video-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donde-estamos-ubicados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+
+}
+
+
+
+.donde-estamos-ubicados h3 {
+    margin-bottom: 30px;
+
+}
+
+.map-ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* sobre-nosotros fin */
+
+/* footer */
+
+footer {
+    background-color: #6b5cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    height: 80px;
+
+}
+
+.texto-footer p {
+    color: rgb(255, 255, 255);
+}
+
+.icono-footer a {
+    
+    margin-left: 20PX;
+}
